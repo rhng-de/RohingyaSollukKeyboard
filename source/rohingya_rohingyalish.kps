@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.252.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <GraphicFile>rhng_logo_portrait_rohingyalish.png</GraphicFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL=""></Version>
+    <Name URL="">Rohingya Solluk Rohingyalish</Name>
+    <Copyright URL="">CC-BY-4.0 rhng.de</Copyright>
+    <Author URL="mailto:keyboard@rhng.de">Michael Schneider</Author>
+    <WebSite URL="https://www.rhng.de">https://www.rhng.de</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>build\rohingya_solluk_rohingyalish.js</Name>
+      <Description>File rohingya_solluk_rohingyalish.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_rohingyalish.kvk</Name>
+      <Description>File rohingya_solluk_rohingyalish.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_rohingyalish.kmx</Name>
+      <Description>Keyboard Rohingya Solluk Rohingyalish</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>CharisSIL-Regular.ttf</Name>
+      <Description>Font Charis SIL</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>rhng_logo_portrait_rohingyalish.png</Name>
+      <Description>File rhng_logo_portrait_rohingyalish.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>rohingya_solluk_rohingyalish</ID>
+      <OSKFont>CharisSIL-Regular.ttf</OSKFont>
+      <DisplayFont>CharisSIL-Regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

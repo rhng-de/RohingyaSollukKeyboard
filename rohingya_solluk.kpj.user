@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>4</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\rohingya_solluk.kpj</path>
+    <file ID="id_e6cee4b04e7bef239e92d8a68e6b52aa" Expanded="1"/>
+    <file ID="id_0a9f30c3b9fd3f5f68834b5be8641827" Expanded="1"/>
+    <file ID="id_48666ac4b8c1f5cd813229ca912ed25b" Expanded="1"/>
+    <file ID="id_1d0bca4262c4e2cbde758b05377e9cd4" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_2c7cba453cc2467efe5a7bfb8d15281e</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\rohingya_solluk.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_111d1883291dc8c2dbdbf798348cddc3</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\rohingya_solluk.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_db66dda2dc1ef411c33fead2e457772e</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\rohingya_solluk_regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_86ccd90be8a4732bc621ceda94800d41</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\CharisSIL-Regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_25ccfc2e61885c0a5dd18d7afb19730a</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c49e917b64fd7ba317af5dd7adbb9d9a</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1dfbeaf8b73824f50cc0b8d5557b1b72</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\OFL.txt</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_873dea951c8d385f1b6be75e738df03a</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_7538572dbf625b0c16206c53f17e5016</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rhng_logo_portrait.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8bc444fbe012ad221f47c8518c51cbff</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rhng_logo_portrait_fonna.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f2f2ca80baf38d711824d604f6631c25</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rhng_logo_portrait_hanifi.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_7be5586520d3b4346fd7f43ba06c1290</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rhng_logo_portrait_rohingyalish.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_cf8517fbae8f33df38bc06bdd019331f</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_fonna.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_650398d2d1c66a4417d334ed5cc59d40</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_hanifi.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_b9983ba59d4a2bc20a932f0ceba9b5ca</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_rohingyalish.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_06d8372ba0ad5abc39b8d0cbca00df21</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1aecfd6646c9f1d07f417b16633d87cc</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.keyboard_info</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f95aba128a927a7b31bd83b004b60763</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_e6cee4b04e7bef239e92d8a68e6b52aa</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_106dd8ebec91f14efd70c3364075195a</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_6aeb8a86b238d89aa387519ab429c893</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5f0f90a3a42355f102b35815f6658307</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_fonna.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_12cbd7c9eee1e99a55081d5bafe49573</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_fonna.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0a9f30c3b9fd3f5f68834b5be8641827</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_fonna.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_246d41439079d60df35222a401db4fc4</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_fonna.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5c094668180ff183827283a9bb36bfc6</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_fonna_layout.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_72171245ac9590586b8a86bed4911c6a</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_hanifi.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_720e075a8ed75edd4159a49b8696c9cd</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_hanifi.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_48666ac4b8c1f5cd813229ca912ed25b</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_hanifi.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_fa6b6436faad1014786e254541d05189</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_hanifi.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_3e985c2abb054001d564aee1705c3051</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_hanifi_layout.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ceea2cefd1829837111df45fb832f868</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_mobile.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_a8868298863e76590f38b738bd58ce6f</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_bdc9508d4bd2afb47d67ae2313237fc2</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_rohingyalish.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_cad7b4dc9679c00881cbf0c931bc1227</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_rohingyalish.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1d0bca4262c4e2cbde758b05377e9cd4</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_rohingyalish.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <DisplayMapFont>Consolas|-9|   |0</DisplayMapFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_72db02565fb32d147e39f29ad0f85fdb</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_rohingyalish.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_02782b9758ac3d7b74fce1c9f8fcad55</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_rohingyalish_layout.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_40a59ba3fcb9ea3fae4b9190efaa61d0</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\ScheherazadeNewRohingya-Bold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_57544b45a44aa5e98d8631e23b769eff</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\ScheherazadeNewRohingya-Medium.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_3f7fcb51fd0753a1047d78f217a20464</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\ScheherazadeNewRohingya-Regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_423b610bcb33ce0f347a74a7ab3871ce</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\ScheherazadeNewRohingya-SemiBold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4c30618701248eb0958b8d9bac8264f2</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_fonna.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_565cc6554687eaa6a5257450728690d1</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_fonna.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1ae4585fd021ef5a0ea881e2c7f75d56</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_fonna.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_5952579151df0c0a4cacb0843e0ca972</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_hanifi.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8262c485371590b29a3853a57496e6c9</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_hanifi.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d515f4a86c7f78b49afa431c905f2c85</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_hanifi.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_344ae6d81d6ed6639fcd13ee26c92659</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_rohingyalish.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d89962771427c3503bc01117730d543b</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_rohingyalish.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_fe91c5337b16976ebc77e50d61337a17</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk_rohingyalish.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a1aa5b38fc83a7d106d8cecbcfdb1287</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\rohingya_solluk_regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_7d2a73fcb9a8606d3f881540a263de5b</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\build\rohingya_solluk_fonna.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_064bd1702c361af099ad0785701f45a6</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\build\rohingya_solluk_fonna.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_012a4b1af6b5d2492a7cb564cea0c64d</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\build\rohingya_solluk_hanifi.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_b95be7f26784be9c33fc9d231fb3c8bf</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\build\rohingya_solluk_hanifi.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_211ae2dd49837a54c3ecd0cd3789d24c</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\build\rohingya_solluk_rohingyalish.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_b87e3dc9b96e85653e7850bb8b2e64b5</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\..\build\rohingya_solluk_rohingyalish.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8ff31bd159a61a5a2fdbfb59f25611f1</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_78e7ed626488d5e02bb8394f75ce8897</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_42ba99c63bd053512b9e457ed4f4501e</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_522b67808617198de1a1d4efb13411f1</ID>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\build\rohingya_solluk.kmp</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>rohingya_solluk.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>rohingya_fonna.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_fonna.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>rohingya_hanifi.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_hanifi.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>rohingya_solluk_fonna.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_fonna.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>rohingya_rohingyalish.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_rohingyalish.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>rohingya_solluk.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU6</ID>
+      <Filename>rohingya_solluk_mobile.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_mobile.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU7</ID>
+      <Filename>rohingya_solluk_hanifi.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_hanifi.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU8</ID>
+      <Filename>rohingya_solluk_rohingyalish.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\rohingya_solluk_rohingyalish.kmn</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

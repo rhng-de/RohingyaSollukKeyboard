@@ -1,0 +1,13 @@
+﻿store(&VERSION) '10.0'
+store(&NAME) 'Rohingya Solluk'
+store(&COPYRIGHT) 'CC-BY-4.0 rhng.de'
+store(&KEYBOARDVERSION) '1.0.25'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&BITMAP) 'rohingya_solluk.ico'
+store(&VISUALKEYBOARD) 'rohingya_solluk.kvks'
+store(&KMW_HELPTEXT) 'https://www.rhng.de/keyboard'
+store(&MESSAGE) 'One keyboard layout for all Rohingya scripts'
+
+begin Unicode > use(main)
+
+group(main) using keys

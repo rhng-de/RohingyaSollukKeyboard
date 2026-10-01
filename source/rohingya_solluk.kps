@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.252.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <GraphicFile>rhng_logo_portrait.png</GraphicFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
+    <MSIFileName>C:\Users\fms\Documents\Keyman Developer\Projects\RohingyaSollukKeyboard\source\keymandesktop.msi</MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <AddUninstallEntry/>
+    <Items>
+      <Item>
+        <Name>Rohingya Solluk Keyboard Help</Name>
+        <FileName>readme.htm</FileName>
+        <Arguments></Arguments>
+        <Icon></Icon>
+        <Location>psmelStartMenu</Location>
+      </Item>
+    </Items>
+  </StartMenu>
+  <Info>
+    <Name URL="">Rohingya Solluk</Name>
+    <Copyright URL="">CC-BY-4.0 rhng.de</Copyright>
+    <Author URL="mailto:keyboard@rhng.de">Michael Schneider</Author>
+    <Version URL="">1.1.25</Version>
+    <WebSite URL="https://www.rhng.de">https://www.rhng.de</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\rohingya_solluk_regular.ttf</Name>
+      <Description>Font Rohingya Solluk Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>..\build\rohingya_solluk_fonna.kvk</Name>
+      <Description>File rohingya_solluk_fonna.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\rohingya_solluk_fonna.kmx</Name>
+      <Description>Keyboard</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\rohingya_solluk_hanifi.kvk</Name>
+      <Description>File rohingya_solluk_hanifi.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\rohingya_solluk_hanifi.kmx</Name>
+      <Description>Keyboard</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\rohingya_solluk_rohingyalish.kvk</Name>
+      <Description>File rohingya_solluk_rohingyalish.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\rohingya_solluk_rohingyalish.kmx</Name>
+      <Description>Keyboard</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>rohingya_solluk_fonna_layout.png</Name>
+      <Description>File rohingya_solluk_fonna_layout.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>rohingya_solluk_hanifi_layout.png</Name>
+      <Description>File rohingya_solluk_hanifi_layout.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>rohingya_solluk_rohingyalish_layout.png</Name>
+      <Description>File rohingya_solluk_rohingyalish_layout.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_fonna.js</Name>
+      <Description>File rohingya_solluk_fonna.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_hanifi.js</Name>
+      <Description>File rohingya_solluk_hanifi.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_rohingyalish.js</Name>
+      <Description>File rohingya_solluk_rohingyalish.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>rhng_logo_portrait.png</Name>
+      <Description>File rhng_logo_portrait.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>rohingya_solluk_fonna</ID>
+      <OSKFont>..\rohingya_solluk_regular.ttf</OSKFont>
+      <DisplayFont>..\rohingya_solluk_regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+    <Keyboard>
+      <ID>rohingya_solluk_hanifi</ID>
+      <OSKFont>..\rohingya_solluk_regular.ttf</OSKFont>
+      <DisplayFont>..\rohingya_solluk_regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+    <Keyboard>
+      <ID>rohingya_solluk_rohingyalish</ID>
+      <OSKFont>..\rohingya_solluk_regular.ttf</OSKFont>
+      <DisplayFont>..\rohingya_solluk_regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

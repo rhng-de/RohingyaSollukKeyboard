@@ -1,0 +1,399 @@
+﻿c Type all Rohingya scripts with the same layout!
+c 
+c For more information on Rohingya script development visit https://rhng.de
+store(&VERSION) '15.0'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&COPYRIGHT) 'CC-BY-4.0 rhng.de'
+store(&KMW_RTL) '1'
+store(&MESSAGE) 'One keyboard layout for all Rohingya scripts'
+store(&KMW_HELPTEXT) 'https://www.rhng.de/keyboard'
+store(&BITMAP) 'rohingya_solluk_hanifi.ico'
+store(&VISUALKEYBOARD) 'rohingya_solluk_hanifi.kvks'
+store(&NAME) 'Rohingya Solluk Hanifi'
+store(&KEYBOARDVERSION) '1.1.25'
+store(&LAYOUTFILE) 'rohingya_solluk_hanifi.keyman-touch-layout'
+begin Unicode > use(main)
+
+group(main) using keys
+store(consonants_vowels_glides_tones) U+10D24 U+10D25 U+10D26 U+10D17 U+10D1 U+10D1D U+10D1E U+10D1F U+10D20 U+10D21 U+10D00 U+10D01 U+10D02 U+10D03 U+10D04 U+10D05 U+10D06 U+10D07 U+10D08 U+10D09 U+10D0A U+10D0B U+10D0C U+10D0D U+10D0E U+10D0F U+10D10 U+10D11 U+10D12 U+10D13 U+10D14 U+10D15 U+10D16 U+10D18 U+10D1A U+10D1B U+10D1C
+store(tonebase) U+10D1D U+10D1E U+10D1F U+10D20 U+10D21
+store(tone) U+10D24 U+10D25 U+10D26
+store(tassibase) U+10D01 U+10D02 U+10D03 U+10D04 U+10D05 U+10D06 U+10D09 U+10D03 U+10D0B U+10D0C U+10D0E U+10D0F U+10D10 U+10D11 U+10D12 U+10D13 U+10D14 U+10D15 U+10D16 U+10D18 U+10D1C
+store(tassi) U+10D27
+store(vowel) U+10D1D U+10D1E U+10D1F U+10D20 U+10D21
+store(consonant) U+10D27 U+10D00 U+10D01 U+10D02 U+10D03 U+10D04 U+10D05 U+10D06 U+10D07 U+10D08 U+10D09 U+10D0A U+10D0B U+10D0C U+10D0D U+10D0E U+10D0F U+10D10 U+10D11 U+10D12 U+10D13 U+10D14 U+10D15 U+10D16 U+10D18 U+10D1A U+10D1B U+10D1C
+store(consonant_with_sakin) U+10D01 U+10D02 U+10D03 U+10D04 U+10D07 U+10D08 U+10D09 U+10D0A U+10D0E U+10D0F U+10D10 U+10D1C
+c TODO store(consonant_with_tassi)
+store(glide) U+10D17 U+10D1
+store(separator)  U+000D U+000E U+000F U+0010 U+0011 U+0012 U+0013 U+0014 U+0015 U+0016 U+0017 U+0018 U+0019 U+0020 U+0021 U+0022 U+0028 U+0029 U+002C U+002D U+002E U+002F U+003A U+003C U+003E U+003F U+005B U+005C U+005D U+005F U+060C U+061B U+061F U+007B U+007C U+007D 
+
+c TODO add Return Key to the ya/wa/sakin fixes
+
+c main layers
+c numbers
++ [K_0] > '𐴰'
++ [K_1] > '𐴱'
++ [K_2] > '𐴲'
++ [K_3] > '𐴳'
++ [K_4] > '𐴴'
++ [K_5] > '𐴵'
++ [K_6] > '𐴶'
++ [K_7] > '𐴷'
++ [K_8] > '𐴸'
++ [K_9] > '𐴹'
+c vowels
++ [K_A] > U+10D1D
++ [SHIFT K_A] > U+10D00 U+10D1D
++ [K_I] > U+10D1E
++ [SHIFT K_I] > U+10D00 U+10D1E
++ [K_U] >  U+10D1F
++ [SHIFT K_U] >  U+10D00 U+10D1F
++ [K_E] >  U+10D20
++ [SHIFT K_E] >  U+10D00 U+10D20
++ [K_O] > U+10D21
++ [SHIFT K_O] > U+10D00 U+10D21
+c tone marks
++ [K_LBRKT] > U+10D25
++ [K_BKSLASH] > U+10D26
++ [K_RBRKT] > U+10D24
+c nasalizer
++ [SHIFT K_N] > '𐴣'
+c sakin
++ [K_V] > U+10D22
+c germination mark
++ [SHIFT K_V] > U+10D27
+c glides
++ [SHIFT K_W] > '𐴗'
++ [SHIFT K_Y] > '𐴙'
+c interpunctuation & special characters
++ [K_BKQUOTE] > '̀'
++ [K_COLON] > '؛'
++ [K_COMMA] > '،'
++ [K_EQUAL] > '='
++ [K_HYPHEN] > '-'
++ [K_PERIOD] > '.'
++ [K_QUOTE] > U+0027
++ [K_SLASH] > '/'
++ [SHIFT K_0] > ')'
++ [SHIFT K_1] > '!'
++ [SHIFT K_2] > '@'
++ [SHIFT K_3] > '#'
++ [SHIFT K_4] > '$'
++ [SHIFT K_5] > '%'
++ [SHIFT K_6] > U+0302
+U+0302 + [K_SPACE] > U+005E
++ [SHIFT K_7] > '&'
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [SHIFT K_BKQUOTE] > '̃'
++ [SHIFT K_BKSLASH] > '\'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_COMMA] > '<'
++ [SHIFT K_EQUAL] > '+'
++ [SHIFT K_HYPHEN] > '_'
++ [SHIFT K_LBRKT] > '['
++ [SHIFT K_PERIOD] > '>'
++ [SHIFT K_QUOTE] > '”'
+U+201D + [SHIFT K_QUOTE] > U+201C
++ [SHIFT K_RBRKT] > ']'
++ [SHIFT K_SLASH] > '؟'
+c consonants
++ [K_Q] > U+10D00
++ [SHIFT K_Q] > U+10D1B
++ [K_B] > U+10D01
++ [SHIFT K_F] > U+10D1C
++ [K_C] > U+10D10
++ [SHIFT K_C] > U+10D06
++ [K_D] > U+10D0A
++ [SHIFT K_D] > U+10D0B
++ [K_F] > U+10D09
++ [K_G] > U+10D12
++ [SHIFT K_G] > U+10D1A
++ [K_H] > U+10D07
++ [SHIFT K_H] > U+10D08
++ [K_X] > U+10D08
++ [K_J] > U+10D05
++ [K_K] > U+10D11
++ [K_L] > U+10D13
++ [K_M] > U+10D14
++ [SHIFT K_M] > U+10D1A
++ [K_N] > U+10D15
++ [K_P] > U+10D02
++ [K_R] > U+10D0C
++ [SHIFT K_R] > U+10D0D
++ [K_S] > U+10D0F
++ [SHIFT K_S] > U+10D10
++ [K_T] > U+10D03
++ [SHIFT K_T] > U+10D04
++ [K_W] > U+10D16
++ [K_Y] > U+10D18
++ [K_Z] > U+10D0E
+
+c Common fixes:
+c Fix order kinna-ya.ya and na-khonna
+U+10D19 + [SHIFT K_N] > U+10D23 U+10D19
+U+10D18 + [SHIFT K_N] > U+10D23 U+10D19
+
+c Fix missing sakin
+any(consonant_with_sakin) + [K_SPACE] > context(1) U+10D22 U+0020
+any(consonant_with_sakin) + [K_BKQUOTE] > context(1) U+10D22 '́'
+any(consonant_with_sakin) + [K_COLON] > context(1) U+10D22 '؛'
+any(consonant_with_sakin) + [K_COMMA] > context(1) U+10D22 '،'
+any(consonant_with_sakin) + [K_EQUAL] > context(1) U+10D22 '='
+any(consonant_with_sakin) + [K_HYPHEN] > context(1) U+10D22 '-'
+any(consonant_with_sakin) + [K_PERIOD] > context(1) U+10D22 '.'
+any(consonant_with_sakin) + [K_QUOTE] > context(1) U+10D22 U+0027
+any(consonant_with_sakin) + [K_SLASH] > context(1) U+10D22 '/'
+any(consonant_with_sakin) + [SHIFT K_0] > context(1) U+10D22 ')'
+any(consonant_with_sakin) + [SHIFT K_1] > context(1) U+10D22 '!'
+any(consonant_with_sakin) + [SHIFT K_2] > context(1) U+10D22 '@'
+any(consonant_with_sakin) + [SHIFT K_3] > context(1) U+10D22 '#'
+any(consonant_with_sakin) + [SHIFT K_4] > context(1) U+10D22 '$'
+any(consonant_with_sakin) + [SHIFT K_5] > context(1) U+10D22 '%'
+any(consonant_with_sakin) + [SHIFT K_6] > context(1) U+10D22 '^'
+any(consonant_with_sakin) + [SHIFT K_7] > context(1) U+10D22 '&'
+any(consonant_with_sakin) + [SHIFT K_8] > context(1) U+10D22 '*'
+any(consonant_with_sakin) + [SHIFT K_9] > context(1) U+10D22 '('
+any(consonant_with_sakin) + [SHIFT K_BKQUOTE] > context(1) U+10D22 '̃'
+any(consonant_with_sakin) + [SHIFT K_BKSLASH] > context(1) U+10D22 '\'
+any(consonant_with_sakin) + [SHIFT K_COLON] > context(1) U+10D22 ':'
+any(consonant_with_sakin) + [SHIFT K_COMMA] > context(1) U+10D22 '<'
+any(consonant_with_sakin) + [SHIFT K_EQUAL] > context(1) U+10D22 '+'
+any(consonant_with_sakin) + [SHIFT K_HYPHEN] > context(1) U+10D22 '_'
+any(consonant_with_sakin) + [SHIFT K_LBRKT] > context(1) U+10D22 '['
+any(consonant_with_sakin) + [SHIFT K_PERIOD] > context(1) U+10D22 '>'
+any(consonant_with_sakin) + [SHIFT K_QUOTE] > context(1) U+10D22 '”'
+
+c delete Sakin if backspaced
+any(consonant_with_sakin) U+10D22 + [K_BKSP] > context(1)
+
+c Prohibit adding tones to non-vowels; disabled to enable typing broken modern Hanifi
+c notany(vowel) + [K_LBRKT]  > context(1)
+c notany(vowel) + [K_RBRKT] > context(1)
+c notany(vowel) + [K_BKSLASH]  > context(1)
+c Fix prematurely typed tone mark (overruled?)
+c any(tone) + [K_A] > U+10D1D context(1)
+c any(tone) + [K_I] > U+10D1E context(1)
+c any(tone) + [K_U] > U+10D1F context(1)
+c any(tone) + [K_E] > U+10D20 context(1)
+c any(tone) + [K_O] > U+10D21 context(1)
+
+c lazy germination
+U+10D1B + [SHIFT K_Q] > U+10D1B U+10D27
+U+10D01 + [K_B] > U+10D01 U+10D27
+U+10D1C + [SHIFT K_F] > U+10D1C U+10D27
+U+10D10 + [K_C] > U+10D10 U+10D27
+U+10D06 + [SHIFT K_C] > U+10D06 U+10D27
+U+10D0A + [K_D] > U+10D0A U+10D27
+U+10D0B + [SHIFT K_D] > U+10D0B U+10D27
+U+10D09 + [K_F] > U+10D09 U+10D27
+U+10D12 + [K_G] > U+10D12 U+10D27
+U+10D07 + [K_H] > U+10D07 U+10D27
+U+10D08 + [K_X] > U+10D08 U+10D27
+U+10D05 + [K_J] > U+10D05 U+10D27
+U+10D11 + [K_K] > U+10D11 U+10D27
+U+10D13 + [K_L] > U+10D13 U+10D27
+U+10D14 + [K_M] > U+10D14 U+10D27
+U+10D1A + [SHIFT K_M] > U+10D1A U+10D27
+U+10D15 + [K_N] > U+10D15 U+10D27
+U+10D02 + [K_P] > U+10D02 U+10D27
+U+10D0C + [K_R] > U+10D0C U+10D27
+U+10D0D + [SHIFT K_R] > U+10D0D U+10D27
+U+10D0F + [K_S] > U+10D0F U+10D27
+U+10D10 + [SHIFT K_S] > U+10D10 U+10D27
+U+10D03 + [K_T] > U+10D03 U+10D27
+U+10D04 + [SHIFT K_T] > U+10D04 U+10D27
+U+10D16 + [K_W] > U+10D16 U+10D27
+U+10D18 + [K_Y] > U+10D18 U+10D27
+U+10D0E + [K_Z] > U+10D0E U+10D27
+
+c Alternative layers
++ [LCTRL LALT K_0] > '0'
++ [LCTRL LALT K_1] > '1'
++ [LCTRL LALT K_2] > '2'
++ [LCTRL LALT K_3] > '3'
++ [LCTRL LALT K_4] > '4'
++ [LCTRL LALT K_5] > '5'
++ [LCTRL LALT K_6] > '6'
++ [LCTRL LALT K_7] > '7'
++ [LCTRL LALT K_8] > '8'
++ [LCTRL LALT K_9] > '9'
++ [LCTRL LALT K_A] > 'a'
++ [LCTRL LALT K_BKQUOTE] > '́'
++ [LCTRL LALT K_BKSLASH] > '̂'
++ [LCTRL LALT K_B] > 'b'
++ [LCTRL LALT K_COLON] > ';'
++ [LCTRL LALT K_COMMA] > ','
++ [LCTRL LALT K_C] > 'c'
++ [LCTRL LALT K_D] > 'd'
++ [LCTRL LALT K_EQUAL] > '='
++ [LCTRL LALT K_E] > 'e'
++ [LCTRL LALT K_F] > 'f'
++ [LCTRL LALT K_G] > 'g'
++ [LCTRL LALT K_HYPHEN] > '-'
++ [LCTRL LALT K_H] > 'h'
++ [LCTRL LALT K_I] > 'i'
++ [LCTRL LALT K_J] > 'j'
++ [LCTRL LALT K_K] > 'k'
++ [LCTRL LALT K_LBRKT] > '́'
++ [LCTRL LALT K_L] > 'l'
++ [LCTRL LALT K_M] > 'm'
++ [LCTRL LALT K_N] > 'n'
++ [LCTRL LALT K_O] > 'o'
++ [LCTRL LALT K_PERIOD] > '.'
++ [LCTRL LALT K_P] > 'p'
++ [LCTRL LALT K_QUOTE] > U+0027
++ [LCTRL LALT K_Q] > 'q'
++ [LCTRL LALT K_RBRKT] > '̀'
++ [LCTRL LALT K_R] > 'r'
++ [LCTRL LALT K_SLASH] > '/'
++ [LCTRL LALT K_S] > 's'
++ [LCTRL LALT K_T] > 't'
++ [LCTRL LALT K_U] > 'u'
++ [LCTRL LALT K_V] > 'v'
++ [LCTRL LALT K_W] > 'w'
++ [LCTRL LALT K_X] > 'x'
++ [LCTRL LALT K_Y] > 'y'
++ [LCTRL LALT K_Z] > 'z'
++ [RALT K_0] > '0'
++ [RALT K_1] > '1'
++ [RALT K_2] > '2'
++ [RALT K_3] > '3'
++ [RALT K_4] > '4'
++ [RALT K_5] > '5'
++ [RALT K_6] > '6'
++ [RALT K_7] > '7'
++ [RALT K_8] > '8'
++ [RALT K_9] > '9'
++ [RALT K_A] > 'a'
++ [RALT K_BKQUOTE] > '́'
++ [RALT K_BKSLASH] > '\'
++ [RALT K_B] > 'b'
++ [RALT K_COLON] > ';'
++ [RALT K_COMMA] > ','
++ [RALT K_C] > 'c'
++ [RALT K_D] > 'd'
++ [RALT K_EQUAL] > '='
++ [RALT K_E] > 'e'
++ [RALT K_F] > 'f'
++ [RALT K_G] > 'g'
++ [RALT K_HYPHEN] > '-'
++ [RALT K_H] > 'h'
++ [RALT K_I] > 'i'
++ [RALT K_J] > 'j'
++ [RALT K_K] > 'k'
++ [RALT K_LBRKT] > '['
++ [RALT K_L] > 'l'
++ [RALT K_M] > 'm'
++ [RALT K_N] > 'n'
++ [RALT K_O] > 'o'
++ [RALT K_PERIOD] > '.'
++ [RALT K_P] > 'p'
++ [RALT K_QUOTE] > U+0027
++ [RALT K_Q] > 'q'
++ [RALT K_RBRKT] > ']'
++ [RALT K_R] > 'r'
++ [RALT K_SLASH] > '/'
++ [RALT K_S] > 's'
++ [RALT K_T] > 't'
++ [RALT K_U] > 'u'
++ [RALT K_V] > 'v'
++ [RALT K_W] > 'w'
++ [RALT K_X] > 'x'
++ [RALT K_Y] > 'y'
++ [RALT K_Z] > 'z'
++ [SHIFT LCTRL LALT K_0] > ')'
++ [SHIFT LCTRL LALT K_1] > '!'
++ [SHIFT LCTRL LALT K_2] > '@'
++ [SHIFT LCTRL LALT K_3] > '#'
++ [SHIFT LCTRL LALT K_4] > '$'
++ [SHIFT LCTRL LALT K_5] > '%'
++ [SHIFT LCTRL LALT K_6] > U+0302
++ [SHIFT LCTRL LALT K_7] > '&'
++ [SHIFT LCTRL LALT K_8] > '*'
++ [SHIFT LCTRL LALT K_9] > '('
++ [SHIFT LCTRL LALT K_A] > 'A'
++ [SHIFT LCTRL LALT K_BKQUOTE] > '̂'
++ [SHIFT LCTRL LALT K_BKSLASH] > '|'
++ [SHIFT LCTRL LALT K_B] > 'B'
++ [SHIFT LCTRL LALT K_COLON] > ':'
++ [SHIFT LCTRL LALT K_COMMA] > '<'
++ [SHIFT LCTRL LALT K_C] > 'C'
++ [SHIFT LCTRL LALT K_D] > 'D'
++ [SHIFT LCTRL LALT K_EQUAL] > '+'
++ [SHIFT LCTRL LALT K_E] > 'E'
++ [SHIFT LCTRL LALT K_F] > 'F'
++ [SHIFT LCTRL LALT K_G] > 'G'
++ [SHIFT LCTRL LALT K_HYPHEN] > '_'
++ [SHIFT LCTRL LALT K_H] > 'H'
++ [SHIFT LCTRL LALT K_I] > 'I'
++ [SHIFT LCTRL LALT K_J] > 'J'
++ [SHIFT LCTRL LALT K_K] > 'K'
++ [SHIFT LCTRL LALT K_LBRKT] > '{'
++ [SHIFT LCTRL LALT K_L] > 'L'
++ [SHIFT LCTRL LALT K_M] > 'M'
++ [SHIFT LCTRL LALT K_N] > 'N'
++ [SHIFT LCTRL LALT K_O] > 'O'
++ [SHIFT LCTRL LALT K_PERIOD] > '>'
++ [SHIFT LCTRL LALT K_P] > 'P'
++ [SHIFT LCTRL LALT K_QUOTE] > U+0027
++ [SHIFT LCTRL LALT K_Q] > 'Q'
++ [SHIFT LCTRL LALT K_RBRKT] > '}'
++ [SHIFT LCTRL LALT K_R] > 'R'
++ [SHIFT LCTRL LALT K_SLASH] > '?'
++ [SHIFT LCTRL LALT K_S] > 'S'
++ [SHIFT LCTRL LALT K_T] > 'T'
++ [SHIFT LCTRL LALT K_U] > 'U'
++ [SHIFT LCTRL LALT K_V] > 'V'
++ [SHIFT LCTRL LALT K_W] > 'W'
++ [SHIFT LCTRL LALT K_X] > 'X'
++ [SHIFT LCTRL LALT K_Y] > 'Y'
++ [SHIFT LCTRL LALT K_Z] > 'Z'
++ [SHIFT RALT K_0] > ')'
++ [SHIFT RALT K_1] > '!'
++ [SHIFT RALT K_2] > '@'
++ [SHIFT RALT K_3] > '#'
++ [SHIFT RALT K_4] > '$'
++ [SHIFT RALT K_5] > '%'
++ [SHIFT RALT K_6] > U+0302
++ [SHIFT RALT K_7] > '&'
++ [SHIFT RALT K_8] > '*'
++ [SHIFT RALT K_9] > '('
++ [SHIFT RALT K_A] > 'A'
++ [SHIFT RALT K_BKQUOTE] > '̂'
++ [SHIFT RALT K_BKSLASH] > '|'
++ [SHIFT RALT K_B] > 'B'
++ [SHIFT RALT K_COLON] > ':'
++ [SHIFT RALT K_COMMA] > '<'
++ [SHIFT RALT K_C] > 'C'
++ [SHIFT RALT K_D] > 'D'
++ [SHIFT RALT K_EQUAL] > '+'
++ [SHIFT RALT K_E] > 'E'
++ [SHIFT RALT K_F] > 'F'
++ [SHIFT RALT K_G] > 'G'
++ [SHIFT RALT K_HYPHEN] > '_'
++ [SHIFT RALT K_H] > 'H'
++ [SHIFT RALT K_I] > 'I'
++ [SHIFT RALT K_J] > 'J'
++ [SHIFT RALT K_K] > 'K'
++ [SHIFT RALT K_LBRKT] > '{'
++ [SHIFT RALT K_L] > 'L'
++ [SHIFT RALT K_M] > 'M'
++ [SHIFT RALT K_N] > 'N'
++ [SHIFT RALT K_O] > 'O'
++ [SHIFT RALT K_PERIOD] > '>'
++ [SHIFT RALT K_P] > 'P'
++ [SHIFT RALT K_QUOTE] > U+0027
++ [SHIFT RALT K_Q] > 'Q'
++ [SHIFT RALT K_RBRKT] > '}'
++ [SHIFT RALT K_R] > 'R'
++ [SHIFT RALT K_SLASH] > '?'
++ [SHIFT RALT K_S] > 'S'
++ [SHIFT RALT K_T] > 'T'
++ [SHIFT RALT K_U] > 'U'
++ [SHIFT RALT K_V] > 'V'
++ [SHIFT RALT K_W] > 'W'
++ [SHIFT RALT K_X] > 'X'
++ [SHIFT RALT K_Y] > 'Y'
++ [SHIFT RALT K_Z] > 'Z'
+

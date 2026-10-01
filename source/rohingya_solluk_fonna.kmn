@@ -1,0 +1,415 @@
+﻿c Type all Rohingya scripts with the same layout!
+c 
+c For more information on Rohingya script development visit https://rhng.de
+store(&VERSION) '15.0'
+store(&COPYRIGHT) 'CC-BY-4.0 rhng.de'
+store(&KMW_RTL) '1'
+store(&KEYBOARDVERSION) '1.1.25'
+store(&MESSAGE) 'One keyboard layout for all Rohingya scripts'
+store(&KMW_HELPTEXT) 'https://www.rhng.de/keyboard'
+store(&BITMAP) 'rohingya_solluk_fonna.ico'
+store(&VISUALKEYBOARD) 'rohingya_solluk_fonna.kvks'
+store(&NAME) 'Rohingya Solluk Fonna'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&LAYOUTFILE) 'rohingya_solluk_fonna.keyman-touch-layout'
+begin Unicode > use(main)
+
+group(main) using keys
+
+c numbers
++ [K_0] > '۰'
++ [K_1] > '۱'
++ [K_2] > '۲'
++ [K_3] > '۳'
++ [K_4] > '۴'
++ [K_5] > '۵'
++ [K_6] > '۶'
++ [K_7] > '۷'
++ [K_8] > '۸'
++ [K_9] > '۹'
+
+c tone marks
++ [K_LBRKT] > dk(tone_onedot)
++ [K_RBRKT] > dk(tone_twodot)
++ [K_BKSLASH] > dk(tone_twodot)
+
+c killer (head of Khah)
++ [K_V] > 'ۡ'
+
+c germination (shadda/tassi)
++ [SHIFT K_V] > 'ّ'
+
+c vowels & tan-vowels
++ [K_A] > U+064E
+U+064E + [K_A] > U+064B
++ [K_I] > U+0650
+U+0650 + [K_I] > U+064D
++ [K_U] > 'ُ'
+U+064F + [K_U] > U+08E8
++ [K_E] > U+08E6
+U+08E6 + [K_E] > U+08E9
++ [K_O] > U+08E4
+U+08E4 + [K_O] > U+08E7
++ [SHIFT K_O] > U+08E5
+U+08E5 + [SHIFT K_O] > U+08E8
+
+c glides
++ [SHIFT K_Y] > 'ࢬ'
++ [SHIFT K_W] > 'ࢫ'
+
+c consonants
++ [K_B] > 'ب'
++ [K_C] > 'ش'
++ [K_D] > 'د'
++ [K_F] > 'ف'
++ [K_G] > 'گ'
++ [K_H] > 'ه'
++ [K_J] > 'ج'
++ [K_K] > 'ك'
++ [K_L] > 'ل'
++ [K_M] > 'م'
++ [K_N] > 'ن'
++ [K_P] > 'پ'
++ [K_Q] > 'ا'
++ [K_R] > 'ر'
++ [K_S] > 'س'
++ [K_T] > 'ت'
++ [K_W] > 'و'
++ [K_X] > 'ح'
++ [K_Y] > 'ي'
++ [K_Z] > 'ز'
++ [SHIFT K_B] > 'ظ'
++ [SHIFT K_C] > 'چ'
++ [SHIFT K_D] > 'ڈ'
++ [SHIFT K_E] > 'ے'
++ [SHIFT K_F] > 'ط'
++ [SHIFT K_G] > 'غ'
++ [SHIFT K_H] > 'ح'
++ [SHIFT K_I] > 'ی'
++ [SHIFT K_J] > 'ث'
++ [SHIFT K_K] > 'ق'
++ [SHIFT K_L] > 'ض'
++ [SHIFT K_M] > 'ڠ'
++ [SHIFT K_N] > 'ں'
++ [SHIFT K_P] > 'ى'
++ [SHIFT K_Q] > 'ع'
++ [SHIFT K_R] > 'ڑ'
++ [SHIFT K_S] > 'ص'
++ [SHIFT K_T] > 'ٹ'
++ [SHIFT K_U] > 'ࢪ'
++ [SHIFT K_X] > 'خ'
++ [SHIFT K_Z] > 'ذ'
++ [SHIFT K_COMMA] > U+0654
++ [SHIFT K_PERIOD] > 'ک'
++ [SHIFT K_LBRKT] > 'آ'
++ [SHIFT K_RBRKT] > 'ہ'
++ [SHIFT K_BKSLASH] > 'ة'
+
+c additionals
++ [K_BKQUOTE] > '́'
++ [K_COLON] > '؛'
++ [K_COMMA] > '،'
++ [K_EQUAL] > '='
++ [K_HYPHEN] > 'ـ'
++ [K_PERIOD] > '.'
++ [K_QUOTE] > U+0027
++ [K_SLASH] > '/'
++ [SHIFT K_0] > ')'
++ [SHIFT K_1] > '!'
++ [SHIFT K_2] > '@'
++ [SHIFT K_3] > '#'
++ [SHIFT K_4] > '$'
++ [SHIFT K_5] > '%'
++ [SHIFT K_6] > U+0302
+U+0302 + [K_SPACE] > U+005E
++ [SHIFT K_7] > '&'
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [SHIFT K_A] > 'ء'
++ [SHIFT K_BKQUOTE] > '̃'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_EQUAL] > '+'
++ [SHIFT K_HYPHEN] > '_'
++ [SHIFT K_QUOTE] > U+0022
++ [SHIFT K_SLASH] > '؟'
+
+c tone marks above
+U+064B + [K_LBRKT] > U+064B U+08EA
+U+064C + [K_LBRKT] > U+064C U+08EA
+U+064E + [K_LBRKT] > U+064E U+08EA
+U+064F + [K_LBRKT] > U+064F U+08EA
+U+08E4 + [K_LBRKT] > U+08E4 U+08EA
+U+08E5 + [K_LBRKT] > U+08E5 U+08EA
+U+08E7 + [K_LBRKT] > U+08E7 U+08EA
+U+08E8 + [K_LBRKT] > U+08E8 U+08EA
+U+064B + [K_RBRKT] > U+064B U+08EB
+U+064C + [K_RBRKT] > U+064C U+08EB
+U+064E + [K_RBRKT] > U+064E U+08EB
+U+064F + [K_RBRKT] > U+064F U+08EB
+U+08E4 + [K_RBRKT] > U+08E4 U+08EB
+U+08E5 + [K_RBRKT] > U+08E5 U+08EB
+U+08E7 + [K_RBRKT] > U+08E7 U+08EB
+U+08E8 + [K_RBRKT] > U+08E8 U+08EB
+U+064B + [K_BKSLASH] > U+064B U+08EC
+U+064C + [K_BKSLASH] > U+064C U+08EC
+U+064E + [K_BKSLASH] > U+064E U+08EC
+U+064F + [K_BKSLASH] > U+064F U+08EC
+U+08E4 + [K_BKSLASH] > U+08E4 U+08EC
+U+08E5 + [K_BKSLASH] > U+08E5 U+08EC
+U+08E7 + [K_BKSLASH] > U+08E7 U+08EC
+U+08E8 + [K_BKSLASH] > U+08E8 U+08EC
+U+064B U+0651 + [K_LBRKT] > U+064B U+0651 U+08EA
+U+064C U+0651 + [K_LBRKT] > U+064C U+0651 U+08EA
+U+064E U+0651 + [K_LBRKT] > U+064E U+0651 U+08EA
+U+064F U+0651 + [K_LBRKT] > U+064F U+0651 U+08EA
+U+08E4 U+0651 + [K_LBRKT] > U+08E4 U+0651 U+08EA
+U+08E5 U+0651 + [K_LBRKT] > U+08E5 U+0651 U+08EA
+U+08E7 U+0651 + [K_LBRKT] > U+08E7 U+0651 U+08EA
+U+08E8 U+0651 + [K_LBRKT] > U+08E8 U+0651 U+08EA
+U+064B U+0651 + [K_RBRKT] > U+064B U+0651 U+08EB
+U+064C U+0651 + [K_RBRKT] > U+064C U+0651 U+08EB
+U+064E U+0651 + [K_RBRKT] > U+064E U+0651 U+08EB
+U+064F U+0651 + [K_RBRKT] > U+064F U+0651 U+08EB
+U+08E4 U+0651 + [K_RBRKT] > U+08E4 U+0651 U+08EB
+U+08E5 U+0651 + [K_RBRKT] > U+08E5 U+0651 U+08EB
+U+08E7 U+0651 + [K_RBRKT] > U+08E7 U+0651 U+08EB
+U+08E8 U+0651 + [K_RBRKT] > U+08E8 U+0651 U+08EB
+U+064B U+0651 + [K_BKSLASH] > U+064B U+0651 U+08EC
+U+064C U+0651 + [K_BKSLASH] > U+064C U+0651 U+08EC
+U+064E U+0651 + [K_BKSLASH] > U+064E U+0651 U+08EC
+U+064F U+0651 + [K_BKSLASH] > U+064F U+0651 U+08EC
+U+08E4 U+0651 + [K_BKSLASH] > U+08E4 U+0651 U+08EC
+U+08E5 U+0651 + [K_BKSLASH] > U+08E5 U+0651 U+08EC
+U+08E7 U+0651 + [K_BKSLASH] > U+08E7 U+0651 U+08EC
+U+08E8 U+0651 + [K_BKSLASH] > U+08E8 U+0651 U+08EC
+
+c tone marks below
+U+064D + [K_LBRKT] > U+064D U+08EA
+U+0650 + [K_LBRKT] > U+0650 U+08EA
+U+08E6 + [K_LBRKT] > U+08E6 U+08EA
+U+08E9 + [K_LBRKT] > U+08E9 U+08EA
+U+064D + [K_RBRKT] > U+064D U+08EB
+U+0650 + [K_RBRKT] > U+0650 U+08EB
+U+08E6 + [K_RBRKT] > U+08E6 U+08EB
+U+08E9 + [K_RBRKT] > U+08E9 U+08EB
+U+064D + [K_BKSLASH] > U+064D U+08EC
+U+0650 + [K_BKSLASH] > U+0650 U+08EC
+U+08E6 + [K_BKSLASH] > U+08E6 U+08EC
+U+08E9 + [K_BKSLASH] > U+08E9 U+08EC
+U+064D U+0651 + [K_LBRKT] > U+064D U+0651 U+08EA
+U+0650 U+0651 + [K_LBRKT] > U+0650 U+0651 U+08EA
+U+08E6 U+0651 + [K_LBRKT] > U+08E6 U+0651 U+08EA
+U+08E9 U+0651 + [K_LBRKT] > U+08E9 U+0651 U+08EA
+U+064D U+0651 + [K_RBRKT] > U+064D U+0651 U+08EB
+U+0650 U+0651 + [K_RBRKT] > U+0650 U+0651 U+08EB
+U+08E6 U+0651 + [K_RBRKT] > U+08E6 U+0651 U+08EB
+U+08E9 U+0651 + [K_RBRKT] > U+08E9 U+0651 U+08EB
+U+064D U+0651 + [K_BKSLASH] > U+064D U+0651 U+08EC
+U+0650 U+0651 + [K_BKSLASH] > U+0650 U+0651 U+08EC
+U+08E6 U+0651 + [K_BKSLASH] > U+08E6 U+0651 U+08EC
+U+08E9 U+0651 + [K_BKSLASH] > U+08E9 U+0651 U+08EC
+
+c above/below hamza
+U+0627 + [SHIFT K_COMMA] > U+0623
+U+0623 + [SHIFT K_COMMA] > U+0625
+U+0648 + [SHIFT K_COMMA] > U+0624
+U+064A + [SHIFT K_COMMA] > U+0626
+U+06CC + [SHIFT K_COMMA] > U+0626
+U+0647 + [SHIFT K_COMMA] > U+06C2
+U+062D + [SHIFT K_COMMA] > U+0681
+U+0631 + [SHIFT K_COMMA] > U+076C
+U+06D2 + [SHIFT K_COMMA] > U+06D3
+U+0654 + [SHIFT K_COMMA] > U+0655
+
+
+c third layer
++ [LCTRL LALT K_0] > '0'
++ [LCTRL LALT K_1] > '1'
++ [LCTRL LALT K_2] > '2'
++ [LCTRL LALT K_3] > '3'
++ [LCTRL LALT K_4] > '4'
++ [LCTRL LALT K_5] > '5'
++ [LCTRL LALT K_6] > '6'
++ [LCTRL LALT K_7] > '7'
++ [LCTRL LALT K_8] > '8'
++ [LCTRL LALT K_9] > '9'
++ [LCTRL LALT K_A] > 'a'
++ [LCTRL LALT K_BKQUOTE] > '́'
++ [LCTRL LALT K_BKSLASH] > '\'
++ [LCTRL LALT K_B] > 'b'
++ [LCTRL LALT K_COLON] > ';'
++ [LCTRL LALT K_COMMA] > ','
++ [LCTRL LALT K_C] > 'c'
++ [LCTRL LALT K_D] > 'd'
++ [LCTRL LALT K_EQUAL] > '='
++ [LCTRL LALT K_E] > 'e'
++ [LCTRL LALT K_F] > 'f'
++ [LCTRL LALT K_G] > 'g'
++ [LCTRL LALT K_HYPHEN] > '-'
++ [LCTRL LALT K_H] > 'h'
++ [LCTRL LALT K_I] > 'i'
++ [LCTRL LALT K_J] > 'j'
++ [LCTRL LALT K_K] > 'k'
++ [LCTRL LALT K_LBRKT] > '['
++ [LCTRL LALT K_L] > 'l'
++ [LCTRL LALT K_M] > 'm'
++ [LCTRL LALT K_N] > 'n'
++ [LCTRL LALT K_O] > 'o'
++ [LCTRL LALT K_PERIOD] > '.'
++ [LCTRL LALT K_P] > 'p'
++ [LCTRL LALT K_QUOTE] > U+0027
++ [LCTRL LALT K_Q] > 'q'
++ [LCTRL LALT K_RBRKT] > ']'
++ [LCTRL LALT K_R] > 'r'
++ [LCTRL LALT K_SLASH] > '/'
++ [LCTRL LALT K_S] > 's'
++ [LCTRL LALT K_T] > 't'
++ [LCTRL LALT K_U] > 'u'
++ [LCTRL LALT K_V] > 'v'
++ [LCTRL LALT K_W] > 'w'
++ [LCTRL LALT K_X] > 'x'
++ [LCTRL LALT K_Y] > 'y'
++ [LCTRL LALT K_Z] > 'z'
++ [RALT K_0] > '0'
++ [RALT K_1] > '1'
++ [RALT K_2] > '2'
++ [RALT K_3] > '3'
++ [RALT K_4] > '4'
++ [RALT K_5] > '5'
++ [RALT K_6] > '6'
++ [RALT K_7] > '7'
++ [RALT K_8] > '8'
++ [RALT K_9] > '9'
++ [RALT K_A] > 'a'
++ [RALT K_BKQUOTE] > '̂'
++ [RALT K_BKSLASH] > '\'
++ [RALT K_B] > 'b'
++ [RALT K_COLON] > ';'
++ [RALT K_COMMA] > ','
++ [RALT K_C] > 'c'
++ [RALT K_D] > 'd'
++ [RALT K_EQUAL] > '='
++ [RALT K_E] > 'e'
++ [RALT K_F] > 'f'
++ [RALT K_G] > 'g'
++ [RALT K_HYPHEN] > '-'
++ [RALT K_H] > 'h'
++ [RALT K_I] > 'i'
++ [RALT K_J] > 'j'
++ [RALT K_K] > 'k'
++ [RALT K_LBRKT] > '['
++ [RALT K_L] > 'l'
++ [RALT K_M] > 'm'
++ [RALT K_N] > 'n'
++ [RALT K_O] > 'o'
++ [RALT K_PERIOD] > '.'
++ [RALT K_P] > 'p'
++ [RALT K_QUOTE] > dk(quote)
++ [RALT K_Q] > 'q'
++ [RALT K_RBRKT] > ']'
++ [RALT K_R] > 'r'
++ [RALT K_SLASH] > '/'
++ [RALT K_S] > 's'
++ [RALT K_T] > 't'
++ [RALT K_U] > 'u'
++ [RALT K_V] > 'v'
++ [RALT K_W] > 'w'
++ [RALT K_X] > 'x'
++ [RALT K_Y] > 'y'
++ [RALT K_Z] > 'z'
+
+c fourth layer
++ [SHIFT LCTRL LALT K_0] > ')'
++ [SHIFT LCTRL LALT K_1] > '!'
++ [SHIFT LCTRL LALT K_2] > '@'
++ [SHIFT LCTRL LALT K_3] > '#'
++ [SHIFT LCTRL LALT K_4] > '$'
++ [SHIFT LCTRL LALT K_5] > '%'
++ [SHIFT LCTRL LALT K_6] > '̂'
++ [SHIFT LCTRL LALT K_7] > '&'
++ [SHIFT LCTRL LALT K_8] > '*'
++ [SHIFT LCTRL LALT K_9] > '('
++ [SHIFT LCTRL LALT K_A] > 'A'
++ [SHIFT LCTRL LALT K_BKQUOTE] > '̀'
++ [SHIFT LCTRL LALT K_BKSLASH] > '|'
++ [SHIFT LCTRL LALT K_B] > 'B'
++ [SHIFT LCTRL LALT K_COLON] > ':'
++ [SHIFT LCTRL LALT K_COMMA] > '<'
++ [SHIFT LCTRL LALT K_C] > 'C'
++ [SHIFT LCTRL LALT K_D] > 'D'
++ [SHIFT LCTRL LALT K_EQUAL] > '+'
++ [SHIFT LCTRL LALT K_E] > 'E'
++ [SHIFT LCTRL LALT K_F] > 'F'
++ [SHIFT LCTRL LALT K_G] > 'G'
++ [SHIFT LCTRL LALT K_HYPHEN] > '_'
++ [SHIFT LCTRL LALT K_H] > 'H'
++ [SHIFT LCTRL LALT K_I] > 'I'
++ [SHIFT LCTRL LALT K_J] > 'J'
++ [SHIFT LCTRL LALT K_K] > 'K'
++ [SHIFT LCTRL LALT K_LBRKT] > '{'
++ [SHIFT LCTRL LALT K_L] > 'L'
++ [SHIFT LCTRL LALT K_M] > 'M'
++ [SHIFT LCTRL LALT K_N] > 'N'
++ [SHIFT LCTRL LALT K_O] > 'O'
++ [SHIFT LCTRL LALT K_PERIOD] > '>'
++ [SHIFT LCTRL LALT K_P] > 'P'
++ [SHIFT LCTRL LALT K_QUOTE] > U+0027
++ [SHIFT LCTRL LALT K_Q] > 'Q'
++ [SHIFT LCTRL LALT K_RBRKT] > '}'
++ [SHIFT LCTRL LALT K_R] > 'R'
++ [SHIFT LCTRL LALT K_SLASH] > '?'
++ [SHIFT LCTRL LALT K_S] > 'S'
++ [SHIFT LCTRL LALT K_T] > 'T'
++ [SHIFT LCTRL LALT K_U] > 'U'
++ [SHIFT LCTRL LALT K_V] > 'V'
++ [SHIFT LCTRL LALT K_W] > 'W'
++ [SHIFT LCTRL LALT K_X] > 'X'
++ [SHIFT LCTRL LALT K_Y] > 'Y'
++ [SHIFT LCTRL LALT K_Z] > 'Z'
++ [SHIFT RALT K_0] > ')'
++ [SHIFT RALT K_1] > '!'
++ [SHIFT RALT K_2] > '@'
++ [SHIFT RALT K_3] > '#'
++ [SHIFT RALT K_4] > '$'
++ [SHIFT RALT K_5] > '%'
++ [SHIFT RALT K_6] > '̂'
++ [SHIFT RALT K_7] > '&'
++ [SHIFT RALT K_8] > '*'
++ [SHIFT RALT K_9] > '('
++ [SHIFT RALT K_A] > 'A'
++ [SHIFT RALT K_BKQUOTE] > '̀'
++ [SHIFT RALT K_BKSLASH] > '|'
++ [SHIFT RALT K_B] > 'B'
++ [SHIFT RALT K_COLON] > ':'
++ [SHIFT RALT K_COMMA] > '<'
++ [SHIFT RALT K_C] > 'C'
++ [SHIFT RALT K_D] > 'D'
++ [SHIFT RALT K_EQUAL] > '+'
++ [SHIFT RALT K_E] > 'E'
++ [SHIFT RALT K_F] > 'F'
++ [SHIFT RALT K_G] > 'G'
++ [SHIFT RALT K_HYPHEN] > '_'
++ [SHIFT RALT K_H] > 'H'
++ [SHIFT RALT K_I] > 'I'
++ [SHIFT RALT K_J] > 'J'
++ [SHIFT RALT K_K] > 'K'
++ [SHIFT RALT K_LBRKT] > '{'
++ [SHIFT RALT K_L] > 'L'
++ [SHIFT RALT K_M] > 'M'
++ [SHIFT RALT K_N] > 'N'
++ [SHIFT RALT K_O] > 'O'
++ [SHIFT RALT K_PERIOD] > '>'
++ [SHIFT RALT K_P] > 'P'
++ [SHIFT RALT K_QUOTE] > U+0027
++ [SHIFT RALT K_Q] > 'Q'
++ [SHIFT RALT K_RBRKT] > '}'
++ [SHIFT RALT K_R] > 'R'
++ [SHIFT RALT K_SLASH] > '?'
++ [SHIFT RALT K_S] > 'S'
++ [SHIFT RALT K_T] > 'T'
++ [SHIFT RALT K_U] > 'U'
++ [SHIFT RALT K_V] > 'V'
++ [SHIFT RALT K_W] > 'W'
++ [SHIFT RALT K_X] > 'X'
++ [SHIFT RALT K_Y] > 'Y'
++ [SHIFT RALT K_Z] > 'Z'

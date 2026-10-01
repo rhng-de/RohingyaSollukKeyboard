@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.252.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <GraphicFile>rhng_logo_portrait_hanifi.png</GraphicFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL=""></Version>
+    <Name URL="">Rohingya Solluk Hanifi</Name>
+    <Copyright URL="">CC-BY-4.0 rhng.de</Copyright>
+    <Author URL="mailto:keyboard@rhng.de">Michael Schneider</Author>
+    <WebSite URL="https://www.rhng.de">https://www.rhng.de</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>build\rohingya_solluk_hanifi.js</Name>
+      <Description>File rohingya_solluk_hanifi.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_hanifi.kvk</Name>
+      <Description>File rohingya_solluk_hanifi.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk_hanifi.kmx</Name>
+      <Description>Keyboard Rohingya Solluk Hanifi</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>rohingya_solluk_regular.ttf</Name>
+      <Description>Font Rohingya Solluk Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>rhng_logo_portrait_hanifi.png</Name>
+      <Description>File rhng_logo_portrait_hanifi.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>rohingya_solluk_hanifi</ID>
+      <OSKFont>rohingya_solluk_regular.ttf</OSKFont>
+      <DisplayFont>rohingya_solluk_regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

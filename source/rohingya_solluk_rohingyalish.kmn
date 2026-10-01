@@ -1,0 +1,514 @@
+﻿c Type all Rohingya scripts with the same layout!
+c 
+c For more information on Rohingya script development visit https://rhng.de
+store(&VERSION) '15.0'
+store(&TARGETS) 'any windows macosx linux web iphone ipad androidphone androidtablet mobile desktop tablet'
+store(&COPYRIGHT) 'CC-BY-4.0 rhng.de'
+store(&KEYBOARDVERSION) '1.1.25'
+store(&MESSAGE) 'One keyboard layout for all Rohingya scripts'
+store(&KMW_HELPTEXT) 'https://www.rhng.de/keyboard'
+store(&BITMAP) 'rohingya_solluk_rohingyalish.ico'
+store(&VISUALKEYBOARD) 'rohingya_solluk_rohingyalish.kvks'
+store(&NAME) 'Rohingya Solluk Rohingyalish'
+store(&LAYOUTFILE) 'rohingya_solluk_rohingyalish.keyman-touch-layout'
+begin Unicode > use(main)
+
+group(main) using keys
+
+store(vowel) 'AEIOUaeiou' U+034F
+store(vowel_incl_nasal) 'AÃEẼIĨOÕUŨaãeẽiĩoõuũ' U+034F
+store(every_vowel) 'AÃÁÀẪEẼÉÈỄIĨÍÌOÕÓÒỖṌUŨÚṸÙaãáàẫeẽéèễiĩíìoõóòỗṍuũúùṹ'
+store(retroflex_base) 'DRTdrt'
+store(fricative_base) 'Hh'
+store(dot_below_base) 'DRTHdrth'
+
++ [K_0] > '0'
++ [K_1] > '1'
++ [K_2] > '2'
++ [K_3] > '3'
++ [K_4] > '4'
++ [K_5] > '5'
++ [K_6] > '6'
++ [K_7] > '7'
++ [K_8] > '8'
++ [K_9] > '9'
++ [K_A] > 'a'
+notany(vowel_incl_nasal) + [K_BKQUOTE] > context(1) '`'
+any(vowel_incl_nasal) +  [K_BKQUOTE] > index(vowel_incl_nasal,1) U+0300
++ [K_BKSLASH] > '\'
++ [K_B] > 'b'
++ [K_COLON] > dk(colon)
++ [K_COMMA] > ','
++ [K_C] > 'c'
++ [K_D] > 'd'
++ [K_EQUAL] > '='
++ [K_E] > 'e'
++ [K_F] > 'f'
++ [K_G] > 'g'
++ [K_HYPHEN] > '-'
++ [K_H] > 'h'
++ [K_I] > 'i'
++ [K_J] > 'j'
++ [K_K] > 'k'
++ [K_LBRKT] > '['
++ [K_L] > 'l'
++ [K_M] > 'm'
++ [K_N] > 'n'
++ [K_O] > 'o'
++ [K_PERIOD] > '.'
++ [K_P] > 'p'
++ [K_QUOTE] > dk(quote)
++ [K_Q] > 'q'
++ [K_RBRKT] > ']'
++ [K_R] > 'r'
++ [K_SLASH] > '/'
++ [K_S] > 's'
++ [K_T] > 't'
++ [K_U] > 'u'
++ [K_V] > 'v'
++ [K_W] > 'w'
++ [K_X] > 'x'
++ [K_Y] > 'y'
++ [K_Z] > 'z'
++ [SHIFT K_0] > ')'
++ [SHIFT K_1] > '!'
++ [SHIFT K_2] > '@'
++ [SHIFT K_3] > '#'
++ [SHIFT K_4] > '$'
++ [SHIFT K_5] > '%'
+notany(vowel_incl_nasal) + [SHIFT K_6] > context(1) '^'
++ [SHIFT K_7] > '&'
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [SHIFT K_A] > 'A'
+notany(vowel) + [SHIFT K_BKQUOTE] > context(1) '~'
++ [SHIFT K_BKSLASH] > '|'
++ [SHIFT K_B] > 'B'
++ [SHIFT K_COLON] > ':'
++ [SHIFT K_COMMA] > '<'
++ [SHIFT K_C] > 'C'
++ [SHIFT K_D] > 'D'
++ [SHIFT K_EQUAL] > '+'
++ [SHIFT K_E] > 'E'
++ [SHIFT K_F] > 'F'
++ [SHIFT K_G] > 'G'
++ [SHIFT K_HYPHEN] > '_'
++ [SHIFT K_H] > 'H'
++ [SHIFT K_I] > 'I'
++ [SHIFT K_J] > 'J'
++ [SHIFT K_K] > 'K'
++ [SHIFT K_LBRKT] > '{'
++ [SHIFT K_L] > 'L'
++ [SHIFT K_M] > 'M'
++ [SHIFT K_N] > 'N'
++ [SHIFT K_O] > 'O'
++ [SHIFT K_PERIOD] > '>'
++ [SHIFT K_P] > 'P'
++ [SHIFT K_QUOTE] > '"'
++ [SHIFT K_Q] > 'Q'
++ [SHIFT K_RBRKT] > '}'
++ [SHIFT K_R] > 'R'
++ [SHIFT K_SLASH] > '?'
++ [SHIFT K_S] > 'S'
++ [SHIFT K_T] > 'T'
++ [SHIFT K_U] > 'U'
++ [SHIFT K_V] > 'V'
++ [SHIFT K_W] > 'W'
++ [SHIFT K_X] > 'X'
++ [SHIFT K_Y] > 'Y'
++ [SHIFT K_Z] > 'Z'
++ [RALT K_0] > '’'
++ [RALT K_1] > '¡'
++ [RALT K_2] > '²'
++ [RALT K_3] > '³'
++ [RALT K_4] > '¤'
++ [RALT K_5] > '€'
++ [RALT K_6] > '¼'
++ [RALT K_7] > '½'
++ [RALT K_8] > '¾'
++ [RALT K_9] > '‘'
++ [RALT K_A] > 'ã'
+notany(vowel_incl_nasal) + [RALT K_BKQUOTE] > context(1) '^'
++ [RALT K_BKQUOTE] > dk(circumflex)
++ [RALT K_BKSLASH] > '¬'
++ [RALT K_B] > '̨'
++ [RALT K_COLON] > '¶'
++ [RALT K_COMMA] > 'ç'
++ [RALT K_C] > 'ß'
++ [RALT K_D] > 'ḍ'
++ [RALT K_EQUAL] > '×'
++ [RALT K_E] > 'ẽ'
++ [RALT K_HYPHEN] > '¥'
++ [RALT K_H] > 'ḥ'
++ [RALT K_I] > 'ĩ'
++ [RALT K_LBRKT] > '«'
++ [RALT K_L] > 'ō'
++ [RALT K_M] > 'ñ'
++ [RALT K_N] > '̃'
++ [RALT K_O] > 'õ'
++ [RALT K_PERIOD] > '̣'
++ [RALT K_P] > 'ö'
++ [RALT K_QUOTE] > '´'
++ [RALT K_Q] > 'ä'
++ [RALT K_RBRKT] > '»'
++ [RALT K_R] > 'ṛ'
++ [RALT K_SLASH] > '¿'
++ [RALT K_S] > 'š'
++ [RALT K_T] > 'ṭ'
++ [RALT K_U] > 'ũ'
++ [RALT K_W] > 'å'
++ [RALT K_Y] > 'ü'
++ [RALT K_Z] > 'æ'
++ [SHIFT RALT K_1] > '¹'
++ [SHIFT RALT K_2] > '²'
++ [SHIFT RALT K_3] > '³'
++ [SHIFT RALT K_4] > '£'
++ [SHIFT RALT K_5] > '€'
++ [SHIFT RALT K_6] > '¼'
++ [SHIFT RALT K_7] > '½'
++ [SHIFT RALT K_8] > '¾'
++ [SHIFT RALT K_A] > 'Ã'
+notany(vowel_incl_nasal) + [SHIFT RALT K_BKQUOTE] >  context(1) '´'
++ [SHIFT RALT K_BKSLASH] > '¦'
++ [SHIFT RALT K_B] > '̨'
++ [SHIFT RALT K_COLON] > ':'
++ [SHIFT RALT K_COMMA] > 'Ç'
++ [SHIFT RALT K_C] > 'ß'
++ [SHIFT RALT K_D] > 'Ḍ'
++ [SHIFT RALT K_EQUAL] > '÷'
++ [SHIFT RALT K_E] > 'Ẽ'
++ [SHIFT RALT K_H] > 'Ḥ'
++ [SHIFT RALT K_I] > 'Ĩ'
++ [SHIFT RALT K_LBRKT] > '['
++ [SHIFT RALT K_L] > 'Ö'
++ [SHIFT RALT K_M] > 'Ñ'
++ [SHIFT RALT K_N] > '̃́'
++ [SHIFT RALT K_O] > 'Õ'
++ [SHIFT RALT K_PERIOD] > '.'
++ [SHIFT RALT K_P] > 'Ō'
++ [SHIFT RALT K_QUOTE] > '¨'
++ [SHIFT RALT K_Q] > 'Ä'
++ [SHIFT RALT K_RBRKT] > ']'
++ [SHIFT RALT K_R] > 'Ṛ'
++ [SHIFT RALT K_SLASH] > '/'
++ [SHIFT RALT K_S] > 'Š'
++ [SHIFT RALT K_T] > 'Ṭ'
++ [SHIFT RALT K_U] > 'Ũ'
++ [SHIFT RALT K_W] > 'Å'
++ [SHIFT RALT K_Y] > 'Ü'
++ [SHIFT RALT K_Z] > 'Æ'
++ [LCTRL LALT K_0] > '’'
++ [LCTRL LALT K_1] > '¡'
++ [LCTRL LALT K_2] > '²'
++ [LCTRL LALT K_3] > '³'
++ [LCTRL LALT K_4] > '¤'
++ [LCTRL LALT K_5] > '€'
++ [LCTRL LALT K_6] > '¼'
++ [LCTRL LALT K_7] > '½'
++ [LCTRL LALT K_8] > '¾'
++ [LCTRL LALT K_9] > '‘'
++ [LCTRL LALT K_A] > 'ã'
++ [LCTRL LALT K_BKQUOTE] > '̂'
++ [LCTRL LALT K_BKSLASH] > '¬'
++ [LCTRL LALT K_B] > '̨'
++ [LCTRL LALT K_COLON] > '¶'
++ [LCTRL LALT K_COMMA] > 'ç'
++ [LCTRL LALT K_C] > 'ß'
++ [LCTRL LALT K_D] > 'ḍ'
++ [LCTRL LALT K_EQUAL] > '×'
++ [LCTRL LALT K_E] > 'ẽ'
++ [LCTRL LALT K_HYPHEN] > '¥'
++ [LCTRL LALT K_H] > 'ḥ'
++ [LCTRL LALT K_I] > 'ĩ'
++ [LCTRL LALT K_LBRKT] > '«'
++ [LCTRL LALT K_L] > 'ō'
++ [LCTRL LALT K_M] > 'ñ'
++ [LCTRL LALT K_N] > '̃'
++ [LCTRL LALT K_O] > 'õ'
++ [LCTRL LALT K_PERIOD] > '̣'
++ [LCTRL LALT K_P] > 'ö'
++ [LCTRL LALT K_QUOTE] > '´'
++ [LCTRL LALT K_Q] > 'ä'
++ [LCTRL LALT K_RBRKT] > '»'
++ [LCTRL LALT K_R] > 'ṛ'
++ [LCTRL LALT K_SLASH] > '¿'
++ [LCTRL LALT K_S] > 'š'
++ [LCTRL LALT K_T] > 'ṭ'
++ [LCTRL LALT K_U] > 'ũ'
++ [LCTRL LALT K_W] > 'å'
++ [LCTRL LALT K_Y] > 'ü'
++ [LCTRL LALT K_Z] > 'æ'
++ [SHIFT LCTRL LALT K_1] > '¹'
++ [SHIFT LCTRL LALT K_2] > '²'
++ [SHIFT LCTRL LALT K_3] > '³'
++ [SHIFT LCTRL LALT K_4] > '£'
++ [SHIFT LCTRL LALT K_5] > '€'
++ [SHIFT LCTRL LALT K_6] > '¼'
++ [SHIFT LCTRL LALT K_7] > '½'
++ [SHIFT LCTRL LALT K_8] > '¾'
++ [SHIFT LCTRL LALT K_A] > 'Ã'
++ [SHIFT LCTRL LALT K_BKQUOTE] > '̀'
++ [SHIFT LCTRL LALT K_BKSLASH] > '¦'
++ [SHIFT LCTRL LALT K_B] > '̨'
++ [SHIFT LCTRL LALT K_COLON] > ':'
++ [SHIFT LCTRL LALT K_COMMA] > 'Ç'
++ [SHIFT LCTRL LALT K_C] > 'ß'
++ [SHIFT LCTRL LALT K_D] > 'Ḍ'
++ [SHIFT LCTRL LALT K_EQUAL] > '÷'
++ [SHIFT LCTRL LALT K_E] > 'Ẽ'
++ [SHIFT LCTRL LALT K_H] > 'Ḥ'
++ [SHIFT LCTRL LALT K_I] > 'Ĩ'
++ [SHIFT LCTRL LALT K_LBRKT] > '['
++ [SHIFT LCTRL LALT K_L] > 'Ö'
++ [SHIFT LCTRL LALT K_M] > 'Ñ'
++ [SHIFT LCTRL LALT K_N] > '̃́'
++ [SHIFT LCTRL LALT K_O] > 'Õ'
++ [SHIFT LCTRL LALT K_PERIOD] > '.'
++ [SHIFT LCTRL LALT K_P] > 'Ō'
++ [SHIFT LCTRL LALT K_QUOTE] > '¨'
++ [SHIFT LCTRL LALT K_Q] > 'Ä'
++ [SHIFT LCTRL LALT K_RBRKT] > ']'
++ [SHIFT LCTRL LALT K_R] > 'Ṛ'
++ [SHIFT LCTRL LALT K_SLASH] > '/'
++ [SHIFT LCTRL LALT K_S] > 'Š'
++ [SHIFT LCTRL LALT K_T] > 'Ṭ'
++ [SHIFT LCTRL LALT K_U] > 'Ũ'
++ [SHIFT LCTRL LALT K_W] > 'Å'
++ [SHIFT LCTRL LALT K_Y] > 'Ü'
++ [SHIFT LCTRL LALT K_Z] > 'Æ'
+
+c not used right now
+c store(diacritickey) U+005E U+0060 U+007E U+00B4
+c store(diacriticCombining) U+0302 U+0300 U+0303 U+0301
+c any(vowel) + any(diacritickey) > index(vowel,1) index(diacriticCombining,2)
+
+dk(colon) dk(quote) + [K_SLASH] > U+034F U+0303 U+0301
+dk(colon) dk(quote) + [K_A] > U+1E79
+dk(colon) dk(quote) + [K_E] > U+1E4D
+dk(colon) dk(quote) + [K_I] > U+0129 U+0301
+dk(colon) dk(quote) + [K_O] > U+1EBD U+0301
+dk(colon) dk(quote) + [K_U] > U+00E3 U+0301
+dk(colon) dk(quote) + [SHIFT K_A] > U+1E78 
+dk(colon) dk(quote) + [SHIFT K_E] > U+1E4C 
+dk(colon) dk(quote) + [SHIFT K_I] > U+0128 U+0301
+dk(colon) dk(quote) + [SHIFT K_O] > U+1EBC U+0301
+dk(colon) dk(quote) + [SHIFT K_U] > U+00C3 U+0301
+dk(quote) dk(colon) + [K_SLASH] > U+034F U+0303 U+0301
+dk(quote) dk(colon) + [K_A] > U+1E79
+dk(quote) dk(colon) + [K_E] > U+1E4D
+dk(quote) dk(colon) + [K_I] > U+0129 U+0301
+dk(quote) dk(colon) + [K_O] > U+1EBD U+0301
+dk(quote) dk(colon) + [K_U] > U+00E3 U+0301
+dk(quote) dk(colon) + [SHIFT K_A] > U+1E78 
+dk(quote) dk(colon) + [SHIFT K_E] > U+1E4C 
+dk(quote) dk(colon) + [SHIFT K_I] > U+0128 U+0301
+dk(quote) dk(colon) + [SHIFT K_O] > U+1EBC U+0301
+dk(quote) dk(colon) + [SHIFT K_U] > U+00C3 U+0301
+
+c combining grapheme joiner
+dk(colon) + [K_SLASH] > U+034F
+dk(colon) + [K_COMMA] > U+0328
+dk(colon) + [K_PERIOD] > U+0323
+c add dot below (retroflex)
+dk(colon) + [SHIFT K_D] > U+1E0C
+dk(colon) + [SHIFT K_R] > U+1E5A
+dk(colon) + [SHIFT K_T] > U+1E6C
+dk(colon) + [K_D] > U+1E0D
+dk(colon) + [K_R] > U+1E5B
+dk(colon) + [K_T] > U+1E6D
+c add dot below (fricatives)
+dk(colon) + [SHIFT K_H] > U+1E24
+dk(colon) + [K_H] > U+1E25
+c add reverse circumflex (sha š)
+dk(colon) + [SHIFT K_S] > 'Š'
+dk(colon) + [K_S] > 'š'
+c add tilde (nasal)
+dk(colon) + [SHIFT K_N] > 'Ñ'
+dk(colon) + [K_N] > 'ñ'
+c add ng
+dk(colon) + [SHIFT K_M] > 'Ŋ'
+dk(colon) + [K_M] > 'ŋ'
+dk(colon) + [SHIFT K_G] > 'Ŋ'
+dk(colon) + [K_G] > 'ŋ'
+c add ny
+dk(colon) + [SHIFT K_Y] > 'Ɲ'
+dk(colon) + [K_Y] > 'ɲ'
+dk(colon) + [SHIFT K_Q] > 'Ɲ'
+dk(colon) + [K_Q] > 'ɲ'
+
+c add tilde (nasal)
+dk(colon) + [SHIFT K_A] > U+00C3
+dk(colon) + [SHIFT K_E] > U+1EBC
+dk(colon) + [SHIFT K_I] > U+0128
+dk(colon) + [SHIFT K_O] > U+00D5
+dk(colon) + [SHIFT K_U] > U+0168
+dk(colon) + [SHIFT RALT K_A] > U+00C3 U+0301
+dk(colon) + [SHIFT RALT K_E] > U+1EBC U+0301
+dk(colon) + [SHIFT RALT K_I] > U+0128 U+0301
+dk(colon) + [SHIFT RALT K_O] > U+1E4C
+dk(colon) + [SHIFT RALT K_U] > U+1E78
+dk(colon) + [SHIFT LCTRL LALT K_A] > U+00C3 U+0301
+dk(colon) + [SHIFT LCTRL LALT  K_E] > U+1EBC U+0301
+dk(colon) + [SHIFT LCTRL LALT  K_I] > U+0128 U+0301
+dk(colon) + [SHIFT LCTRL LALT  K_O] > U+1E4C
+dk(colon) + [SHIFT LCTRL LALT  K_U] > U+1E78
+dk(colon) + [K_A] > U+00E3
+dk(colon) + [K_E] > U+1EBD
+dk(colon) + [K_I] > U+0129
+dk(colon) + [K_O] > U+00F5
+dk(colon) + [K_U] > U+0169
+dk(colon) + [RALT K_A] > U+00E3 U+0301
+dk(colon) + [RALT K_E] > U+1EBD U+0301
+dk(colon) + [RALT K_I] > U+0129 U+0301
+dk(colon) + [RALT K_O] > U+1E4D
+dk(colon) + [RALT K_U] > U+1E79
+dk(colon) + [LCTRL LALT K_A] > U+00E3 U+0301
+dk(colon) + [LCTRL LALT K_E] > U+1EBD U+0301
+dk(colon) + [LCTRL LALT K_I] > U+0129 U+0301
+dk(colon) + [LCTRL LALT K_O] > U+1E4D
+dk(colon) + [LCTRL LALT K_U] > U+1E79
+dk(colon) + [K_SPACE] > U+003B U+0020
+dk(colon) + [K_COLON] > ';'
+
+c add acute (guta)
+dk(quote) + [SHIFT K_A] > U+00C1
+dk(quote) + [SHIFT K_E] > U+00C9
+dk(quote) + [SHIFT K_I] > U+00CD
+dk(quote) + [SHIFT K_O] > U+00D3
+dk(quote) + [SHIFT K_U] > U+00DA
+dk(quote) + [SHIFT RALT K_A] > U+00C3 U+0301
+dk(quote) + [SHIFT RALT K_E] > U+1EBC U+0301
+dk(quote) + [SHIFT RALT K_I] > U+0128 U+0301
+dk(quote) + [SHIFT RALT K_O] > U+1E4C
+dk(quote) + [SHIFT RALT K_U] > U+1E78
+dk(quote) + [SHIFT LCTRL LALT K_A] > U+00C3 U+0301
+dk(quote) + [SHIFT LCTRL LALT  K_E] > U+1EBC U+0301
+dk(quote) + [SHIFT LCTRL LALT  K_I] > U+0128 U+0301
+dk(quote) + [SHIFT LCTRL LALT  K_O] > U+1E4C
+dk(quote) + [SHIFT LCTRL LALT  K_U] >U+1E78
+dk(quote) + [K_A] > U+00E1
+dk(quote) + [K_E] > U+00E9
+dk(quote) + [K_I] > U+00ED
+dk(quote) + [K_O] > U+00F3
+dk(quote) + [K_U] > U+00FA
+dk(quote) + [RALT K_A] > U+00E3 U+0301
+dk(quote) + [RALT K_E] > U+1EBD U+0301
+dk(quote) + [RALT K_I] > U+0129 U+0301
+dk(quote) + [RALT K_O] > U+1E4D
+dk(quote) + [RALT K_U] > U+1E79
+dk(quote) + [LCTRL LALT K_A] > U+00E3 U+0301
+dk(quote) + [LCTRL LALT K_E] > U+1EBD U+0301
+dk(quote) + [LCTRL LALT K_I] > U+0129 U+0301
+dk(quote) + [LCTRL LALT K_O] > U+1E4D
+dk(quote) + [LCTRL LALT K_U] > U+1E79
+dk(quote) + [K_SPACE] > U+0027
+dk(quote) + [K_QUOTE] > U+0027
+
+c add circumflex
+U+034F + [SHIFT K_6] > U+034F U+0302
+U+0041 + [SHIFT K_6] > U+00C2
+U+0045 + [SHIFT K_6] > U+00CA
+U+0049 + [SHIFT K_6] > U+00CE
+U+004F + [SHIFT K_6] > U+00D4
+U+0055 + [SHIFT K_6] > U+00DB
+U+0061 + [SHIFT K_6] > U+00E2
+U+0065 + [SHIFT K_6] > U+00EA
+U+0069 + [SHIFT K_6] > U+00EE
+U+006F + [SHIFT K_6] > U+00F4
+U+0075 + [SHIFT K_6] > U+00FB
+U+00C3 + [SHIFT K_6] > U+1EAA
+U+1EBC + [SHIFT K_6] > U+1EC4
+U+0128 + [SHIFT K_6] > U+00CE U+0303
+U+00D5 + [SHIFT K_6] > U+1ED6
+U+0168 + [SHIFT K_6] > U+00DB U+0303
+U+00E3 + [SHIFT K_6] > U+1EAB
+U+1EBD + [SHIFT K_6] > U+1EC5
+U+0129 + [SHIFT K_6] > U+00EE U+0303
+U+00F5 + [SHIFT K_6] > U+1ED7
+U+0169 + [SHIFT K_6] > U+00FB U+0303
+U+0041 + [RALT K_BKQUOTE]  > U+00C2
+U+0045 + [RALT K_BKQUOTE]  > U+00CA
+U+0049 + [RALT K_BKQUOTE]  > U+00CE
+U+004F + [RALT K_BKQUOTE]  > U+00D4
+U+0055 + [RALT K_BKQUOTE]  > U+00DB
+U+0061 + [RALT K_BKQUOTE]  > U+00E2
+U+0065 + [RALT K_BKQUOTE]  > U+00EA
+U+0069 + [RALT K_BKQUOTE]  > U+00EE
+U+006F + [RALT K_BKQUOTE]  > U+00F4
+U+0075 + [RALT K_BKQUOTE]  > U+00FB
+U+00C3 + [RALT K_BKQUOTE]  > U+1EAA
+U+1EBC + [RALT K_BKQUOTE]  > U+1EC4
+U+0128 + [RALT K_BKQUOTE]  > U+00CE U+0303
+U+00D5 + [RALT K_BKQUOTE]  > U+1ED6
+U+0168 + [RALT K_BKQUOTE]  > U+00DB U+0303
+U+00E3 + [RALT K_BKQUOTE]  > U+1EAB
+U+1EBD + [RALT K_BKQUOTE]  > U+1EC5
+U+0129 + [RALT K_BKQUOTE]  > U+00EE U+0303
+U+00F5 + [RALT K_BKQUOTE]  > U+1ED7
+U+0169 + [RALT K_BKQUOTE]  > U+00FB U+0303
+
+c add tilde
+U+034F + [SHIFT K_BKQUOTE] > U+034F U+0303
+U+0041 + [SHIFT K_BKQUOTE] > U+00C3
+U+0045 + [SHIFT K_BKQUOTE] > U+1EBC
+U+0049 + [SHIFT K_BKQUOTE] > U+0128
+U+004F + [SHIFT K_BKQUOTE] > U+00D5
+U+0055 + [SHIFT K_BKQUOTE] > U+0168
+U+0061 + [SHIFT K_BKQUOTE] > U+00E3
+U+0065 + [SHIFT K_BKQUOTE] > U+1EBD
+U+0069 + [SHIFT K_BKQUOTE] > U+0129
+U+006F + [SHIFT K_BKQUOTE] > U+00F5
+U+0075 + [SHIFT K_BKQUOTE] > U+0169
+U+00C1 + [SHIFT K_BKQUOTE] > U+00C3 U+0301
+U+00C9 + [SHIFT K_BKQUOTE] > U+1EBC U+0301
+U+00CD + [SHIFT K_BKQUOTE] > U+0128 U+0301
+U+00D3 + [SHIFT K_BKQUOTE] > U+1E4C
+U+00DA + [SHIFT K_BKQUOTE] > U+1E78
+U+00E1 + [SHIFT K_BKQUOTE] > U+00E3 U+0301
+U+00E9 + [SHIFT K_BKQUOTE] > U+1EBD U+0301
+U+00ED + [SHIFT K_BKQUOTE] > U+0129 U+0301
+U+00F3 + [SHIFT K_BKQUOTE] > U+1E4D
+U+00FA + [SHIFT K_BKQUOTE] > U+1E79
+U+00C0 + [SHIFT K_BKQUOTE] > U+00C3 U+0300
+U+00C8 + [SHIFT K_BKQUOTE] > U+1EBC U+0300
+U+00CC + [SHIFT K_BKQUOTE] > U+0128 U+0300
+U+00D2 + [SHIFT K_BKQUOTE] > U+00D5 U+0300
+U+00D9 + [SHIFT K_BKQUOTE] > U+0168 U+0300
+U+00E0 + [SHIFT K_BKQUOTE] > U+00E3 U+0300
+U+00E8 + [SHIFT K_BKQUOTE] > U+1EBD U+0300
+U+00EC + [SHIFT K_BKQUOTE] > U+0129 U+0300
+U+00F2 + [SHIFT K_BKQUOTE] > U+00F5 U+0300
+U+00F9 + [SHIFT K_BKQUOTE] > U+0169 U+0300
+U+00C2 + [SHIFT K_BKQUOTE] > U+00FB U+0303
+U+00CA + [SHIFT K_BKQUOTE] > U+1ED7
+U+00CE + [SHIFT K_BKQUOTE] > U+00EE U+0303
+U+00D4 + [SHIFT K_BKQUOTE] > U+1EC5
+U+00DB + [SHIFT K_BKQUOTE] > U+1EAB
+U+00E2 + [SHIFT K_BKQUOTE] > U+00DB U+0303
+U+00EA + [SHIFT K_BKQUOTE] > U+1ED6
+U+00EE + [SHIFT K_BKQUOTE] > U+00CE U+0303
+U+00F4 + [SHIFT K_BKQUOTE] > U+1EC4
+U+00FB + [SHIFT K_BKQUOTE] > U+1EAA
+
+c add acute
+U+034F + [SHIFT RALT K_BKQUOTE] > U+034F U+0301
+U+0041 + [SHIFT RALT K_BKQUOTE] > U+00C1
+U+0045 + [SHIFT RALT K_BKQUOTE] > U+00C9
+U+0049 + [SHIFT RALT K_BKQUOTE] > U+00CD
+U+00F4 + [SHIFT RALT K_BKQUOTE] > U+00D3
+U+0055 + [SHIFT RALT K_BKQUOTE] > U+00DA
+U+0061 + [SHIFT RALT K_BKQUOTE] > U+00E1
+U+0065 + [SHIFT RALT K_BKQUOTE] > U+00E9
+U+0069 + [SHIFT RALT K_BKQUOTE] > U+00ED
+U+006F + [SHIFT RALT K_BKQUOTE] > U+00F3
+U+0075 + [SHIFT RALT K_BKQUOTE] > U+00FA
+U+00C3 + [SHIFT RALT K_BKQUOTE] > U+00C3 U+0301
+U+1EBC + [SHIFT RALT K_BKQUOTE] > U+1EBC U+0301
+U+0128 + [SHIFT RALT K_BKQUOTE] > U+0128 U+0301
+U+00D5 + [SHIFT RALT K_BKQUOTE] > U+1E4C
+U+0168 + [SHIFT RALT K_BKQUOTE] > U+1E78
+U+00E3 + [SHIFT RALT K_BKQUOTE] > U+00E3 U+0301
+U+1EBD + [SHIFT RALT K_BKQUOTE] > U+1EBD U+0301
+U+0129 + [SHIFT RALT K_BKQUOTE] > U+0129 U+0301
+U+00F5 + [SHIFT RALT K_BKQUOTE] > U+1E4D
+U+0169 + [SHIFT RALT K_BKQUOTE] > U+1E79

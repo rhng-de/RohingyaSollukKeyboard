@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.252.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <GraphicFile>rhng_logo_portrait.png</GraphicFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">0.8.0</Version>
+    <Name URL="">Rohingya Solluk</Name>
+    <Copyright URL="">CC-BY-4.0 rhng.de</Copyright>
+    <Author URL="mailto:keyboard@rhng.de">Michael Schneider</Author>
+    <WebSite URL="https://www.rhng.de">https://www.rhng.de</WebSite>
+    <Description URL="">This mobile keyboard layout is still a beta. Flawless function is not guaranteed. Please provide feedback to keyboard@rhng.de about anny issues or improvements you would like to see implemented.</Description>
+  </Info>
+  <Files>
+    <File>
+      <Name>build\rohingya_solluk.kvk</Name>
+      <Description>File rohingya_solluk.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk.kmx</Name>
+      <Description>Keyboard Rohingya Solluk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>rohingya_solluk.ico</Name>
+      <Description>File rohingya_solluk.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>rohingya_solluk_regular.ttf</Name>
+      <Description>Font Rohingya Solluk Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk.js</Name>
+      <Description>File rohingya_solluk.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>build\rohingya_solluk.kmp</Name>
+      <Description>File rohingya_solluk.kmp</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmp</FileType>
+    </File>
+    <File>
+      <Name>rhng_logo_portrait.png</Name>
+      <Description>File rhng_logo_portrait.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>rohingya_solluk</ID>
+      <OSKFont>rohingya_solluk_regular.ttf</OSKFont>
+      <DisplayFont>rohingya_solluk_regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="rhg">Rohingya</Language>
+        <Language ID="en">English</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
