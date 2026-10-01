@@ -1,0 +1,1 @@
+Welcome to the Keyman keyboard layout repository for multiple Rohingya scripts. The aim of these layouts is to provide a typing solution that allows users to type Rohingya in all major scripts with just a single layout to learn. 
